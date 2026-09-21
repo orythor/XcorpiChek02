@@ -39,8 +39,12 @@ Semua stalker otomatis **download foto profil** ke `~/XcorpiChek01_output/`
 ## Cara Install
 
 ```bash
+pkg update && pkg upgrade
+pkg install figlet
+pip install playwright pillow
+playwright install chromium
 pkg install git -y
-git clone https://github.com/XioNiV/XcorpiChek01
+git clone https://github.com/orythor/XcorpiChek01.git
 cd XcorpiChek01
 bash install.sh
 ```
